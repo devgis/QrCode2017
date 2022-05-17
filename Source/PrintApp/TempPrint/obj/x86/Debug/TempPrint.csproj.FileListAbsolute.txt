@@ -1,0 +1,13 @@
+E:\Work\P2\PrintApp\TempPrint\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Work\P2\PrintApp\TempPrint\obj\x86\Debug\TempPrint.MainForm.resources
+E:\Work\P2\PrintApp\TempPrint\obj\x86\Debug\TempPrint.Properties.Resources.resources
+E:\Work\P2\PrintApp\TempPrint\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Work\P2\PrintApp\TempPrint\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Work\P2\PrintApp\Release\临时签到\TempPrint.exe.config
+E:\Work\P2\PrintApp\Release\临时签到\TempPrint.exe
+E:\Work\P2\PrintApp\Release\临时签到\TempPrint.pdb
+E:\Work\P2\PrintApp\TempPrint\obj\x86\Debug\TempPrint.exe
+E:\Work\P2\PrintApp\TempPrint\obj\x86\Debug\TempPrint.pdb
+E:\Work\P2\PrintApp\Release\批量打印\TempPrint.exe.config
+E:\Work\P2\PrintApp\Release\批量打印\TempPrint.exe
+E:\Work\P2\PrintApp\Release\批量打印\TempPrint.pdb

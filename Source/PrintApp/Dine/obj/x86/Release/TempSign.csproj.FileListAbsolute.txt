@@ -1,0 +1,13 @@
+E:\Work\P2\PrintApp\TempSign\bin\Release\TempSign.exe
+E:\Work\P2\PrintApp\TempSign\bin\Release\TempSign.pdb
+E:\Work\P2\PrintApp\TempSign\bin\Release\BarcodeLib.dll
+E:\Work\P2\PrintApp\TempSign\bin\Release\PrintApp.Common.dll
+E:\Work\P2\PrintApp\TempSign\bin\Release\MySql.Data.dll
+E:\Work\P2\PrintApp\TempSign\bin\Release\PrintApp.Common.pdb
+E:\Work\P2\PrintApp\TempSign\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Work\P2\PrintApp\TempSign\obj\x86\Release\TempSign.MainForm.resources
+E:\Work\P2\PrintApp\TempSign\obj\x86\Release\TempSign.Properties.Resources.resources
+E:\Work\P2\PrintApp\TempSign\obj\x86\Release\GenerateResource.read.1.tlog
+E:\Work\P2\PrintApp\TempSign\obj\x86\Release\GenerateResource.write.1.tlog
+E:\Work\P2\PrintApp\TempSign\obj\x86\Release\TempSign.exe
+E:\Work\P2\PrintApp\TempSign\obj\x86\Release\TempSign.pdb

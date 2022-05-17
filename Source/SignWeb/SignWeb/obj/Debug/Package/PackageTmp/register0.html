@@ -1,0 +1,357 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>欢迎注册</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--<meta name=”viewport” content="width=1100″ />-->
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- css -->
+<!--<link href="css/bootstrap-responsive.css" rel="stylesheet">-->
+<link href="css/style.css" rel="stylesheet">
+<!-- skin color -->
+<link href="color/default.css" rel="stylesheet">
+<!--[if lt IE 7]>
+	<link href="css/font-awesome-ie7.css" type="text/css" rel="stylesheet">  
+<![endif]-->
+<!--<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">  -->
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<!--<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+<link rel="shortcut icon" href="img/favicon.ico">
+<style>
+
+#selcompanyadd
+{
+    height:90px;
+}
+#selinviter
+{
+ height:90px;
+}
+#header-wrapper.header-slider {
+width:100%;
+background-size:100% 100%;
+-moz-background-size:100% 100%;
+}
+select
+{
+width: 100%;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius :5px;
+/*background: rgba(227, 231, 228, 1);*/
+font-family: 'Open Sans', sans serif;
+border: 0;
+font-size: 16px;
+text-align: left;
+vertical-align: middle;
+}
+.cform-text{
+	background:#FFF !important;
+	color:#999 !important;
+	font-weight:bold;
+}
+#bgimg {
+    position:relative;
+    width:100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+#divbanner
+{
+    background: #FFF url(../img/bg/bg-1.jpg) no-repeat;
+    width:100%;
+    height:1080px;
+    background-attachment: fixed; 
+    background-size:contain;
+    }
+#header-wrapper 
+{
+    min-height:0px;
+    padding-top: 0px;
+}
+.spacer.green, .section.green {
+    background: #EAEAEA;
+}
+h3
+{
+    text-align: center;
+}
+
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #999; opacity:1; 
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #999;opacity:1;
+}
+
+input:-ms-input-placeholder{
+    color: #999;opacity:1;
+}
+
+input::-webkit-input-placeholder{
+    color: #999;opacity:1;
+}
+
+input::-webkit-input-placeholder {
+　　color:#999;
+　　}
+input:-moz-placeholder {
+　　color:#999;
+　　}
+input::-moz-placeholder {
+　　color:#999;
+　　}
+input:-ms-input-placeholder {
+　　color:#999;
+}
+</style>
+</head>
+<body>
+<div id="divbanner" class="carousel-inner img-responsive img-rounded">
+</div>
+<div id="header-wrapper" class="header-slider" style="display:none;">
+
+	<header class="clearfix">
+	<div class="container">
+		<div class="row">
+			<div class="span12">
+
+				<!-- end slider -->
+			</div>
+		</div>
+	</div>
+	</header>
+</div>
+<!-- end spacer section -->
+<!-- section: contact -->
+<section id="contact" class="section green">
+<div class="container">
+	<div class="blankdivider30">
+	</div>
+	<div class="row">
+		<div class="span12">
+			<div class="cform" id="contact-form">
+				<div id="sendmessage">
+				</div>
+				<form action="register.ashx" method="post" class="contactForm">
+					<div class="row">
+						<div class="span6">
+							<div class="field your-name">
+                            <div style="font-weight:bold;">* 必填字段</div>
+								<input type="text" name="name" placeholder="您的姓名" class="cform-text" size="40" data-rule="required" data-msg="请输入您的姓名" />
+								<div class="validation" style="color:#333;">
+								</div>
+							</div>
+							<div class="field your-mobile">
+                            <div style="font-weight:bold;" >* </div>
+								<input type="text" name="mobile" placeholder="您的手机" class="cform-text" size="40" data-rule="required" data-msg="请输入手机号" />
+								<div class="validation" style="color:#333;">
+								</div>
+							</div>
+                            <div class="field your-company">
+                            <div style=" font-weight:bold;" >* </div>
+								<input type="text" name="company" placeholder="公司名称" class="cform-text" size="40" data-rule="required" data-msg="请输入公司名称" />
+								<div class="validation" style="color:#333;">
+								</div>
+							</div>
+                            
+                            <div id="selcompanyadd" class="field your-companyadd">
+                            
+                            <div style=" font-weight:bold;margin-top:10px;">* 公司所在地</div>
+                                <select  style="height:60px;" name="companyadd" data-rule="required" class="form-control cform-text" data-msg="请选择">
+                                <option value=""></option>
+                                <option value="北京市">北京市</option>
+                                <option value="天津市">天津市</option>
+                                <option value="上海市">上海市</option>
+                                <option value="重庆市">重庆市</option>
+                                <option value="河北省">河北省</option>
+                                <option value="河南省">河南省</option>
+                                <option value="云南省">云南省</option>
+                                <option value="辽宁省">辽宁省</option>
+                                <option value="黑龙江省">黑龙江省</option>
+                                <option value="湖南省">湖南省</option>
+                                <option value="安徽省">安徽省</option>
+                                <option value="山东省">山东省</option>
+                                <option value="新疆维吾尔族自治区">新疆维吾尔族自治区</option>
+                                <option value="江苏省">江苏省</option>
+                                <option value="浙江省">浙江省</option>
+                                <option value="江西省">江西省</option>
+                                <option value="湖北省">湖北省</option>
+                                <option value="广西壮族自治区">广西壮族自治区</option>
+                                <option value="甘肃省">甘肃省</option>
+                                <option value="山西省">山西省</option>
+                                <option value="内蒙古">内蒙古</option>
+                                <option value="陕西省">陕西省</option>
+                                <option value="吉林省">吉林省</option>
+                                <option value="福建省">福建省</option>
+                                 <option value="贵州省">贵州省</option>
+                                <option value="广东省">广东省</option>
+                                <option value="青海省">青海省</option>
+                                <option value="西藏">西藏</option>
+                                <option value="四川省">四川省</option>
+                                <option value="宁夏">宁夏</option>
+                                <option value="海南省">海南省</option>
+                                <!--<option value="台湾省">台湾省</option>
+                                <option value="香港特别行政区">香港特别行政区</option>
+                                <option value="澳门特别行政区">澳门特别行政区</option>-->
+                                </select>
+								<!--<input type="text" name="companyadd" placeholder="公司所在地" class="cform-text" size="40" data-rule="" data-msg="" />-->
+								<div class="validation" style="color:#333;">
+								</div>
+							</div>
+                            <div  id="selinviter" class="field your-Inviter">
+                            <div style="font-weight:bold; font-weight:bold; margin-top:10px;" >* 宝峨邀请员工姓名</div>
+                                <select style="height:60px;" name="inviter" data-rule="required" class="cform-text form-control" data-msg="请选择">
+                                    <option value=""></option>
+                                    <option value="李明德">李明德</option>
+                                    <option value="王柳松">王柳松</option>
+                                    <option value="陈云峰">陈云峰</option>
+                                    <option value="崔蓓">崔蓓</option>
+                                    <option value="李春阳">李春阳</option>
+                                    <option value="汤朝晖">汤朝晖</option>
+                                    <option value="王锦涛">王锦涛</option>
+                                    <option value="王界杉">王界杉</option>
+                                    <option value="江世辉">江世辉</option>
+                                    <option value="王嘉">王嘉</option>
+                                    <option value="张祝良">张祝良</option>
+                                    <option value="陈宝军">陈宝军</option>
+                                    <option value="赵明星">赵明星</option>
+                                    <option value="张栋良">张栋良</option>
+                                    <option value="卢苇">卢苇</option>
+                                    <option value="李仲伟">李仲伟</option>
+                                    <option value="刘祥军">刘祥军</option>
+                                    <option value="晏青">晏青</option>
+                                    <option value="苏宝文">苏宝文</option>
+                                    <option value="赵延华">赵延华</option>
+                                    <option value="林永明">林永明</option>
+                                    <option value="陈永明">陈永明</option>
+                                    <option value="其他">其他</option>
+                                </select>
+								<!--<input type="text" name="inviter" placeholder="邀请人姓名" class="cform-text" size="40" data-rule="" data-msg="" />-->
+								<div class="validation" style="color:#333;">
+								</div>
+							</div>
+							<div class="field  position">
+                            <br>
+								<input type="text" name="position" placeholder="您的职位" class="cform-text" size="40" data-rule="" data-msg="" />
+								<div class="validation" style="color:#333;">
+								</div>
+							</div>
+                            
+                            <div class="field your-email">
+								<p>
+								  <input type="text" name="email" placeholder="您的邮箱" class="cform-text" size="40" data-rule="" data-msg="" />
+							  </p>
+								<p>&nbsp; </p>
+                            </div>
+                            <input type="submit" value="完成注册" class="btn btn-theme pull-left" style="background:#B0C4DE !important; color:#FFF; font-weight:bold;">
+					  </div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- ./span12 -->
+	</div>
+</div>
+</section>
+<!--<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>-->
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<!-- nav -->
+<!--<script src="js/jquery.scrollTo.js"></script>
+<script src="js/jquery.nav.js"></script>-->
+<!-- localScroll -->
+<!--<script src="js/jquery.localscroll-1.2.7-min.js"></script>-->
+<!-- bootstrap -->
+<!--<script src="js/bootstrap.js"></script>-->
+<!-- prettyPhoto -->
+<!--<script src="js/jquery.prettyPhoto.js"></script>-->
+<!-- Works scripts -->
+<!--<script src="js/isotope.js"></script>-->
+<!-- flexslider -->
+<!--<script src="js/jquery.flexslider.js"></script>-->
+<!-- inview -->
+<!--<script src="js/inview.js"></script>-->
+<!-- animation -->
+<!--<script src="js/animate.js"></script>-->
+<!-- twitter -->
+<!--<script src="js/jquery.tweet.js"></script>-->
+<!-- contact form -->
+<script src="js/validate.js"></script>
+<!-- custom functions -->
+<!--<script src="js/custom.js"></script>-->
+<script type="text/javascript">
+    var browser = {
+        versions: function () {
+            var u = navigator.userAgent, app = navigator.appVersion;
+            return {
+                trident: u.indexOf('Trident') > -1, //IE内核<img id="selectsearch-icon" src="https://gss0.bdstatic.com/70cFsjip0QIZ8tyhnq/img/iknow/qb/select-search.png" alt="搜索">
+                presto: u.indexOf('Presto') > -1, //opera内核
+                webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                mobile: !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/), //是否为移动终端
+                ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+                iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者QQHD浏览器
+                iPad: u.indexOf('iPad') > -1, //是否iPad
+                webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+            };
+        } ()
+    }
+    //document.writeln(" 是否为移动终端: " + browser.versions.mobile);
+   //document.writeln(" ios终端: " + browser.versions.ios);
+   // document.writeln(" android终端: " + browser.versions.android);
+   //document.writeln(" 是否为iPhone: " + browser.versions.iPhone);
+   //document.writeln(" 是否iPad: " + browser.versions.iPad);
+    //   document.writeln(navigator.userAgent);
+
+//$("#divbanner").css("height", window.screen.height+"px");
+    if (browser.versions.ios&&browser.versions.iPhone) {
+        //$("#header-wrapper").css("min-height", "0px");
+        $("#divbanner").removeAttr("background-attachment");
+        $("#divbanner").removeAttr("background-size");
+        $("#divbanner").css("height", "340px");
+        if(screen.width>400)
+        {
+            $("#divbanner").css("height", "220px");
+        }
+        else
+        {
+            $("#divbanner").css("height", "340px");            
+        }
+       
+        
+        //$("#bgimg").css("height", "1920px");
+        //$("#header-wrapper ").css("height", "100%");
+        //$("#header-wrapper.header-slider").removeAttr("background-size");
+        //$("#header-wrapper.header-slider").css("height", "auto");
+
+        //$("#bgimg").attr("src", "url(../img/bg/bg-1.jpg)");
+    }else if (browser.versions.android&&browser.versions.mobile)
+    { 
+        //$("#divbanner").css("background-size","100% 100%");
+        $("#divbanner").removeAttr("background-attachment");
+        $("#divbanner").removeAttr("background-size");
+        $("#divbanner").css("height", "330px");
+    }
+    else {
+        $("#divbanner").css("height", "640px");
+        //$("#header-wrapper.header-slider").css("background", " #444 url(../img/bg/bg-1.jpg)");
+        //$("#header-wrapper ").css("min-height", "600px");
+    }
+
+    //document.writeln(screen.width);
+    //document.writeln(screen.height);
+    //$("#bgimg").css("height", "600px");
+//    $("#header-wrapper ").css("height", "100%");
+//    $("#header-wrapper.header-slider").css("background", " #444 url(../img/bg/bg-1.jpg) repeat-x");
+    //$("#header-wrapper ").css("min-height", "600px");
+</script>
+</body>
+</html>

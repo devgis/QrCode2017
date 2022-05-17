@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E4E2D39C-6349-40D8-8102-C6823BE13A52}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SignApp</RootNamespace>
+    <AssemblyName>SignApp</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Release\分会场签到\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>sign.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib">
+      <HintPath>..\lib\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\lib\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FirstPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FirstPage.Designer.cs">
+      <DependentUpon>FirstPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MobileSign.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MobileSign.Designer.cs">
+      <DependentUpon>MobileSign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustNOSign.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustNOSign.Designer.cs">
+      <DependentUpon>CustNOSign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowResultPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ShowResultPage.Designer.cs">
+      <DependentUpon>ShowResultPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PrintPage.Designer.cs">
+      <DependentUpon>PrintPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyBoard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PartSign.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PartSign.Designer.cs">
+      <DependentUpon>PartSign.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustNOSign.resx">
+      <DependentUpon>CustNOSign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstPage.resx">
+      <DependentUpon>FirstPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyBoard.resx">
+      <DependentUpon>KeyBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MobileSign.resx">
+      <DependentUpon>MobileSign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintPage.resx">
+      <DependentUpon>PrintPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ShowResultPage.resx">
+      <DependentUpon>ShowResultPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartSign.resx">
+      <DependentUpon>PartSign.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PrintApp.Common\PrintApp.Common.csproj">
+      <Project>{CB3A8581-2165-46F7-A2DE-ECBD61A6BE17}</Project>
+      <Name>PrintApp.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.ico" />
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\确定.png" />
+    <None Include="Resources\返回.png" />
+    <None Include="Resources\00.png" />
+    <None Include="Resources\01.png" />
+    <None Include="Resources\02.png" />
+    <None Include="Resources\03.png" />
+    <None Include="Resources\04.png" />
+    <None Include="Resources\05.png" />
+    <None Include="Resources\06.png" />
+    <None Include="Resources\07.png" />
+    <None Include="Resources\08.png" />
+    <None Include="Resources\09.png" />
+    <None Include="Resources\删除.png" />
+    <None Include="Resources\重置.png" />
+    <None Include="Resources\3.jpg" />
+    <None Include="Resources\4.jpg" />
+    <None Include="Resources\5.jpg" />
+    <Content Include="sign.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

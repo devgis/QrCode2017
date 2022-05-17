@@ -1,0 +1,13 @@
+E:\Work\P2\PrintApp\ExportApp\bin\Debug\ExportApp.exe
+E:\Work\P2\PrintApp\ExportApp\bin\Debug\ExportApp.pdb
+E:\Work\P2\PrintApp\ExportApp\bin\Debug\PrintApp.Common.dll
+E:\Work\P2\PrintApp\ExportApp\bin\Debug\MySql.Data.dll
+E:\Work\P2\PrintApp\ExportApp\bin\Debug\PrintApp.Common.pdb
+E:\Work\P2\PrintApp\ExportApp\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Work\P2\PrintApp\ExportApp\obj\x86\Debug\ExportApp.MainForm.resources
+E:\Work\P2\PrintApp\ExportApp\obj\x86\Debug\ExportApp.Properties.Resources.resources
+E:\Work\P2\PrintApp\ExportApp\obj\x86\Debug\ExportApp.exe
+E:\Work\P2\PrintApp\ExportApp\obj\x86\Debug\ExportApp.pdb
+E:\Work\P2\PrintApp\ExportApp\obj\x86\Debug\ResGen.read.1.tlog
+E:\Work\P2\PrintApp\ExportApp\obj\x86\Debug\ResGen.write.1.tlog
+E:\Work\P2\PrintApp\ExportApp\bin\Debug\ExportApp.exe.config

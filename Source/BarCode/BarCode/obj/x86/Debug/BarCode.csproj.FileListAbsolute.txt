@@ -1,0 +1,10 @@
+E:\Temp\BarCode\BarCode\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Temp\BarCode\BarCode\obj\x86\Debug\BarCode.Form1.resources
+E:\Temp\BarCode\BarCode\obj\x86\Debug\BarCode.Properties.Resources.resources
+E:\Temp\BarCode\BarCode\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Temp\BarCode\BarCode\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Temp\BarCode\BarCode\bin\Debug\BarCode.exe
+E:\Temp\BarCode\BarCode\bin\Debug\BarCode.pdb
+E:\Temp\BarCode\BarCode\bin\Debug\BarcodeLib.dll
+E:\Temp\BarCode\BarCode\obj\x86\Debug\BarCode.exe
+E:\Temp\BarCode\BarCode\obj\x86\Debug\BarCode.pdb

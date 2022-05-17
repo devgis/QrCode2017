@@ -1,0 +1,5 @@
+UPDATE T_CUSTOMINFO SET SIGNTIME=null
+
+
+delete from T_CUSTOMINFO;
+delete from T_FHCSIGN;

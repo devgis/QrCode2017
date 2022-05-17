@@ -1,0 +1,13 @@
+E:\Work\P2\PrintApp\GetSouvenirs\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Work\P2\PrintApp\GetSouvenirs\obj\x86\Debug\GetSouvenirs.MainForm.resources
+E:\Work\P2\PrintApp\GetSouvenirs\obj\x86\Debug\GetSouvenirs.Properties.Resources.resources
+E:\Work\P2\PrintApp\GetSouvenirs\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Work\P2\PrintApp\GetSouvenirs\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Work\P2\PrintApp\Release\临时签到\GetSouvenirs.exe
+E:\Work\P2\PrintApp\Release\临时签到\GetSouvenirs.pdb
+E:\Work\P2\PrintApp\GetSouvenirs\obj\x86\Debug\GetSouvenirs.exe
+E:\Work\P2\PrintApp\GetSouvenirs\obj\x86\Debug\GetSouvenirs.pdb
+E:\Work\P2\PrintApp\Release\领纪念品\GetSouvenirs.exe
+E:\Work\P2\PrintApp\Release\领纪念品\GetSouvenirs.pdb
+E:\Work\P2\PrintApp\Release\领取礼品\GetSouvenirs.exe
+E:\Work\P2\PrintApp\Release\领取礼品\GetSouvenirs.pdb

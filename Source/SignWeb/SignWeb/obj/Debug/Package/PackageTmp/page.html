@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- css -->
+<!--    <link href="css/bootstrap-responsive.css" tppabs="css/bootstrap-responsive.css" rel="stylesheet">-->
+    <link href="css/style.css" tppabs="css/style.css" rel="stylesheet">
+    <!-- skin color -->
+<!--    <link href="color/default.css" tppabs="color/default.css" rel="stylesheet">-->
+<style>
+body
+{
+    background: #EAEAEA;
+    }
+.spacer.green, .section.green {
+    background: #EAEAEA;
+}
+</style>
+</head>
+
+<body>
+    <!-- spacer section -->
+    <section class="spacer green">
+        <div class="container">
+            <div class="row">
+                <div class="span12 aligncenter flyUp">
+                    <h2 id="rsh1" class="pagetitle"><img id="qrimage" src="" alt="" /></h2>
+                    <h3 id="rsh2" class="pagetitle">注册成功，请长按二维码保存以备签到使用</h3>
+                    <h4 id="rsh3" class="pagetitle"></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js" tppabs="js/jquery.js"></script>
+    <!-- nav -->
+<!--    <script src="js/jquery.scrollTo.js" tppabs="js/jquery.scrollTo.js"></script>
+    <script src="js/jquery.nav.js" tppabs="js/jquery.nav.js"></script>-->
+    <!-- localScroll -->
+<!--    <script src="js/jquery.localscroll-1.2.7-min.js" tppabs="js/jquery.localscroll-1.2.7-min.js"></script>-->
+    <!-- bootstrap -->
+    <script src="js/bootstrap.js" tppabs="js/bootstrap.js"></script>
+    <!-- prettyPhoto -->
+  <!--  <script src="js/jquery.prettyPhoto.js" tppabs="js/jquery.prettyPhoto.js"></script>-->
+    <!-- Works scripts -->
+    <!--<script src="js/isotope.js" tppabs="js/isotope.js"></script>-->
+    <!-- flexslider -->
+    <!--<script src="js/jquery.flexslider.js" tppabs="js/jquery.flexslider.js"></script>-->
+    <!-- inview -->
+    <!--<script src="js/inview.js" tppabs="js/inview.js"></script>-->
+    <script>
+        function GetQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return r[2]; //unescape()
+            return null;
+        }
+        var custno = GetQueryString("custno");
+        if (custno != null && custno != undefined && custno != "") {
+            $("#qrimage").attr("src", "register.ashx?custno=" + custno);
+            $("#qrimage").attr("alt", "请长按二维码保存以备签到使用");
+            $("#rsh3").text("活动当天通过扫描该二维码完成现场签到。");
+            
+        }
+        var info = decodeURI(GetQueryString("info"));
+        if (info != null && info != undefined && info != "") {
+            $("#rsh2").text(info);
+        }
+        else {
+            $("#rsh1").text("");
+            $("#rsh2").text("注册失败，请稍后再试");
+            function register() {
+                this.location = "register.html";
+            }
+            var id = window.setTimeout(register, 5000); 
+        }
+    </script>
+    <!-- animation -->
+    <!--<script src="js/animate.js" tppabs="js/animate.js"></script>-->
+    <!-- twitter -->
+    <!--<script src="js/jquery.tweet.js" tppabs="js/jquery.tweet.js"></script>-->
+    <!-- contact form -->
+    <!--<script src="js/validate.js" tppabs="js/validate.js"></script>-->
+    <!-- custom functions -->
+    <!--<script src="js/custom.js" tppabs="js/custom.js"></script>-->
+</body>
+
+</html>

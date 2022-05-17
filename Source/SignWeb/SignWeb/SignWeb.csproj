@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{16B54C72-1A7D-4540-BB9B-3756A0621801}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SignWeb</RootNamespace>
+    <AssemblyName>SignWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="ThoughtWorks.QRCode">
+      <HintPath>..\lib\ThoughtWorks.QRCode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\SignWeb.dll" />
+    <Content Include="bin\SignWeb.pdb" />
+    <Content Include="color\default.css" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap-responsive.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\font-awesome-ie7.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\overwrite.css" />
+    <Content Include="css\prettyPhoto.css" />
+    <Content Include="css\style.css" />
+    <Content Include="img\banner.jpg" />
+    <Content Include="img\bg\bg-1.jpg" />
+    <Content Include="img\bg\bg-0.jpg" />
+    <Content Include="img\bg\bg-2.jpg" />
+    <Content Include="img\bg\bg-3.jpg" />
+    <Content Include="img\blog\img1.jpg" />
+    <Content Include="img\blog\img2.jpg" />
+    <Content Include="img\blog\img3.jpg" />
+    <Content Include="img\blog\img4.jpg" />
+    <Content Include="img\glyphicons-halflings.png" />
+    <Content Include="img\icons\basket.png" />
+    <Content Include="img\icons\camera.png" />
+    <Content Include="img\icons\creativity.png" />
+    <Content Include="img\icons\lab.png" />
+    <Content Include="img\icons\laptop.png" />
+    <Content Include="img\logo-image.png" />
+    <Content Include="img\prettyPhoto\default\default_thumb.png" />
+    <Content Include="img\prettyPhoto\default\loader.gif" />
+    <Content Include="img\prettyPhoto\default\sprite.png" />
+    <Content Include="img\prettyPhoto\default\sprite_next.png" />
+    <Content Include="img\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="img\prettyPhoto\default\sprite_x.png" />
+    <Content Include="img\prettyPhoto\default\sprite_y.png" />
+    <Content Include="img\qrlogo.png" />
+    <Content Include="img\team\img-1.jpg" />
+    <Content Include="img\team\img-2.jpg" />
+    <Content Include="img\team\img-3.jpg" />
+    <Content Include="img\team\img-4.jpg" />
+    <Content Include="img\team\img-5.jpg" />
+    <Content Include="img\works\1.png" />
+    <Content Include="img\works\10.png" />
+    <Content Include="img\works\2.png" />
+    <Content Include="img\works\3.png" />
+    <Content Include="img\works\4.png" />
+    <Content Include="img\works\5.png" />
+    <Content Include="img\works\6.png" />
+    <Content Include="img\works\7.png" />
+    <Content Include="img\works\8.png" />
+    <Content Include="img\works\9.png" />
+    <Content Include="img\works\big.jpg" />
+    <Content Include="register.html" />
+    <Content Include="js\animate.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\inview.js" />
+    <Content Include="js\isotope.js" />
+    <Content Include="js\jquery.flexslider.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.localscroll-1.2.7-min.js" />
+    <Content Include="js\jquery.nav.js" />
+    <Content Include="js\jquery.prettyPhoto.js" />
+    <Content Include="js\jquery.scrollTo.js" />
+    <Content Include="js\jquery.tweet.js" />
+    <Content Include="js\validate.js" />
+    <Content Include="Global.asax" />
+    <Content Include="page.html" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.ashx.cs">
+      <DependentUpon>register.ashx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="font\fontawesome-webfont.eot-" />
+    <None Include="font\fontawesome-webfont.eot-v=3.2.1" />
+    <None Include="font\fontawesome-webfont.svg" />
+    <None Include="font\fontawesome-webfont.ttf-v=3.2.1" />
+    <None Include="font\fontawesome-webfont.woff-v=3.2.1" />
+    <Content Include="register.ashx" />
+    <Content Include="register0.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SignWeb.Common\SignWeb.Common.csproj">
+      <Project>{CB3A8581-2165-46F7-A2DE-ECBD61A6BE17}</Project>
+      <Name>SignWeb.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4163</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

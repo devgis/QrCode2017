@@ -1,0 +1,9 @@
+E:\Work\P2\PrintApp\Release\就餐\Dine.exe
+E:\Work\P2\PrintApp\Release\就餐\Dine.pdb
+E:\Work\P2\PrintApp\Dine\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Work\P2\PrintApp\Dine\obj\x86\Debug\Dine.MainForm.resources
+E:\Work\P2\PrintApp\Dine\obj\x86\Debug\Dine.Properties.Resources.resources
+E:\Work\P2\PrintApp\Dine\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Work\P2\PrintApp\Dine\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Work\P2\PrintApp\Dine\obj\x86\Debug\Dine.exe
+E:\Work\P2\PrintApp\Dine\obj\x86\Debug\Dine.pdb

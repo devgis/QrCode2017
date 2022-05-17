@@ -1,0 +1,12 @@
+E:\Work\P2\PrintApp\Test\bin\Release\Test.exe
+E:\Work\P2\PrintApp\Test\bin\Release\Test.pdb
+E:\Work\P2\PrintApp\Test\bin\Release\PrintApp.Common.dll
+E:\Work\P2\PrintApp\Test\bin\Release\MySql.Data.dll
+E:\Work\P2\PrintApp\Test\bin\Release\PrintApp.Common.pdb
+E:\Work\P2\PrintApp\Test\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Work\P2\PrintApp\Test\obj\x86\Release\Test.Form1.resources
+E:\Work\P2\PrintApp\Test\obj\x86\Release\Test.Properties.Resources.resources
+E:\Work\P2\PrintApp\Test\obj\x86\Release\GenerateResource.read.1.tlog
+E:\Work\P2\PrintApp\Test\obj\x86\Release\GenerateResource.write.1.tlog
+E:\Work\P2\PrintApp\Test\obj\x86\Release\Test.exe
+E:\Work\P2\PrintApp\Test\obj\x86\Release\Test.pdb

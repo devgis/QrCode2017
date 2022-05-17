@@ -1,0 +1,13 @@
+E:\Work\P2\PrintApp\SignExport\bin\Release\SignExport.exe.config
+E:\Work\P2\PrintApp\SignExport\bin\Release\SignExport.exe
+E:\Work\P2\PrintApp\SignExport\bin\Release\SignExport.pdb
+E:\Work\P2\PrintApp\SignExport\bin\Release\PrintApp.Common.dll
+E:\Work\P2\PrintApp\SignExport\bin\Release\MySql.Data.dll
+E:\Work\P2\PrintApp\SignExport\bin\Release\PrintApp.Common.pdb
+E:\Work\P2\PrintApp\SignExport\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Work\P2\PrintApp\SignExport\obj\x86\Release\SignExport.MainForm.resources
+E:\Work\P2\PrintApp\SignExport\obj\x86\Release\SignExport.Properties.Resources.resources
+E:\Work\P2\PrintApp\SignExport\obj\x86\Release\ResGen.read.1.tlog
+E:\Work\P2\PrintApp\SignExport\obj\x86\Release\ResGen.write.1.tlog
+E:\Work\P2\PrintApp\SignExport\obj\x86\Release\SignExport.exe
+E:\Work\P2\PrintApp\SignExport\obj\x86\Release\SignExport.pdb
